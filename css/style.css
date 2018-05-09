@@ -4,6 +4,9 @@
 
 body {
     background-color: #98fb98;
+    margin: 0 auto;
+	text-align: center;
+    width: 1366px;
 }
 
 div.item {
@@ -12,7 +15,6 @@ div.item {
     background-size: cover;
     background-position: center;
     display: inline-block;
-    float: left;
     margin: 150px 10px 10px 10px;
     position: relative;
 }
@@ -48,13 +50,12 @@ div#kwadrat4 {
 }
 
 a.link {
+    
     position: absolute;
-    display: inline-block;
     color: white;
     font-size: 50px;
     top: 50%;
     left: 50%;
-    transform: translateY(-100%);
-    transform: translateX(-50%);
+    transform: translate(-50%, -50%);
     
 }
