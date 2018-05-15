@@ -1,22 +1,25 @@
 
-body {
-    width: 100%;
+section {
+    width: 100%;   
 }
 
-div.item-mask {
-    width: 24%;
+div.item {
+    width: 23%;
+   
 }
 
 
 
 @media (max-width: 991px) {
-    .item-mask {
-        width: 50%;
+    div.item {
+        width: 46%;
+/*        height: auto;*/
     }
 }
 
 @media (max-width: 479px) {
-    .item-mask {
+    div.item {
         width: 100%;
+/*        height: auto;*/
     }
 }
